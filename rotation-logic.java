@@ -21,5 +21,5 @@ public AVLNode rotateLeft(AVLNode x) {
     x.height = Math.max(height(x.left), height(x.right)) + 1;
     y.height = Math.max(height(y.left), height(y.right)) + 1;
 
-    return y;
+    return y;
 }
